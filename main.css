@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    margin: 0;
+    overflow:0;
+}
+
+.bignav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10,10,35);
+    height:38px;
+    width: 100vw;
+    position: relative;
+    margin-top: -9px;
+
+}
+
+
+.div1 span, i{
+font-size: 25px;    
+color: white;
+cursor: pointer;
+
+}
+
+
+
+.bignav input{
+height: 26px;
+width: 450px;
+position: absolute;
+left: 30px;
+background-color: rgb(59,59,79);
+border: 0;
+}
+.bignav ::placeholder{
+    font-size: 18px;
+    color: gray;
+   
+}
+
+.div2{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    right: 140px;
+   
+    
+}
+
+.div3{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    right: 20px;
+    
+   
+    
+}
+
+.div2 a button{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-color: white;
+    background-color: rgb(10,10,35);
+    height: 32px;
+    width: 76px;
+    cursor: pointer;
+ }
+   
+
+
+
+.div3 a button{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(253,201,74);
+   border-color:rgb(253,201,74) ;
+   height: 32px;
+   width: 105px;
+   cursor: pointer;
+}
+
+.div3 a button:hover{
+background-color:rgb(246, 214, 133);
+}
+
